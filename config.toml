@@ -1,19 +1,15 @@
 baseURL = "https://manual.elklark.com/"
 languageCode = "en-us"
 title = "HA Manual"
+theme = "github.com/adityatelange/hugo-PaperMod"
 
-[module]
-  [[module.imports]]
-    path = "github.com/adityatelange/hugo-PaperMod"
+[markup]
+  [markup.highlight]
+    noClasses = false
 
 [pagination]
   pagerSize = 10
 
-# Enable syntax highlighting
-pygmentsUseClasses = true
-markup.highlight.noClasses = false
-
-# PaperMod config
 [params]
   homeInfoParams = { Title = "Welcome to the HA Manual", Content = "This is your quick-start guide to Home Assistant and related setups." }
   ShowBreadCrumbs = true
