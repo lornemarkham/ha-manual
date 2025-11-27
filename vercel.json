@@ -1,0 +1,7 @@
+{
+  "buildCommand": "git submodule update --init --recursive && hugo",
+  "outputDirectory": "public",
+  "environment": {
+    "HUGO_VERSION": "0.123.7"
+  }
+}
