@@ -1,17 +1,35 @@
 baseURL = "https://manual.elklark.com/"
 languageCode = "en-us"
-title = "Home Assistant Manual"
+title = "HA Manual"
 theme = "PaperMod"
 
-# Optional but recommended
-paginate = 10
+# Fix for deprecated setting
+[pagination]
+  pagerSize = 10
 
+# Enable syntax highlighting
+pygmentsUseClasses = true
+markup.highlight.noClasses = false
+
+# PaperMod config
 [params]
-  homeInfoParams = { Title = "Welcome", Content = "This is your Home Assistant Manual." }
+  homeInfoParams = { Title = "Welcome to the HA Manual", Content = "This is your quick-start guide to Home Assistant and related setups." }
+  ShowBreadCrumbs = true
+  ShowPostNavLinks = true
+  ShowReadingTime = true
+  ShowCodeCopyButtons = true
+  defaultTheme = "auto"
 
-[menu]
-  [[menu.main]]
-    identifier = "posts"
-    name = "Posts"
-    url = "/posts/"
-    weight = 1
+[params.assets]
+  disableFingerprinting = true
+
+# Menu (optional starter example)
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Posts"
+  url = "/posts/"
+  weight = 2
