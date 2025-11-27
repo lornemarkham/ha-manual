@@ -1,9 +1,11 @@
 baseURL = "https://manual.elklark.com/"
 languageCode = "en-us"
 title = "HA Manual"
-theme = "PaperMod"
 
-# Fix for deprecated setting
+[module]
+  [[module.imports]]
+    path = "github.com/adityatelange/hugo-PaperMod"
+
 [pagination]
   pagerSize = 10
 
@@ -23,7 +25,6 @@ markup.highlight.noClasses = false
 [params.assets]
   disableFingerprinting = true
 
-# Menu (optional starter example)
 [[menu.main]]
   name = "Home"
   url = "/"
