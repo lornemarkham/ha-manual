@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Home on HA Manual</title>
-    <link>http://localhost:1313/</link>
+    <link>http://localhost:60400/</link>
     <description>Recent content in Home on HA Manual</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 26 Nov 2025 12:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:60400/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Roku Setup</title>
-      <link>http://localhost:1313/posts/roku-setup/</link>
+      <link>http://localhost:60400/posts/roku-setup/</link>
       <pubDate>Wed, 26 Nov 2025 12:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/posts/roku-setup/</guid>
+      <guid>http://localhost:60400/posts/roku-setup/</guid>
       <description>&lt;p&gt;Roku Garage Setup&lt;br&gt;
 IP Address: 192.168.1.70&lt;br&gt;
 Home Assistant couldn’t auto-discover, so entered IP manually.&lt;/p&gt;
