@@ -1,5 +1,4 @@
-baseURL = "/"
-languageCode = "en-us"
+baseURL = "https://ha-manual-site.vercel.app/"languageCode = "en-us"
 title = "Home Assistant Manual"
 theme = "PaperMod"
 
