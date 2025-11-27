@@ -6,21 +6,19 @@
     <description>Recent content in Posts on Home Assistant Manual</description>
     <generator>Hugo -- 0.152.2</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 26 Nov 2025 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 26 Nov 2025 12:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Roku Setup</title>
       <link>http://localhost:1313/posts/roku-setup/</link>
-      <pubDate>Wed, 26 Nov 2025 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 26 Nov 2025 12:00:00 +0000</pubDate>
       <guid>http://localhost:1313/posts/roku-setup/</guid>
-      <description>&lt;h2 id=&#34;roku-garage-setup&#34;&gt;Roku Garage Setup&lt;/h2&gt;
-&lt;ul&gt;
-&lt;li&gt;IP Address: &lt;code&gt;192.168.1.70&lt;/code&gt;&lt;/li&gt;
-&lt;li&gt;Home Assistant couldn&amp;rsquo;t auto-discover, so entered IP manually&lt;/li&gt;
-&lt;li&gt;Enabled “Allow control via mobile apps” on Roku settings&lt;/li&gt;
-&lt;li&gt;•	Control by mobile apps → Permissive&lt;/li&gt;
-&lt;li&gt;•	Device connect → Enabled&lt;/li&gt;
-&lt;/ul&gt;</description>
+      <description>&lt;p&gt;Roku Garage Setup&lt;br&gt;
+IP Address: 192.168.1.70&lt;br&gt;
+Home Assistant couldn’t auto-discover, so entered IP manually.&lt;/p&gt;
+&lt;p&gt;Enabled “Allow control via mobile apps” on Roku settings&lt;br&gt;
+• Control by mobile apps → Permissive&lt;br&gt;
+• Device connect → Enabled&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

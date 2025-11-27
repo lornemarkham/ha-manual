@@ -1,14 +1,19 @@
-baseURL = "https://manual.elklark.com"
+baseURL = "https://manual.elklark.com/"
+languageCode = "en-us"
 title = "Home Assistant Manual"
 theme = "PaperMod"
 
 [params]
-  ShowReadingTime = true
-  ShowBreadCrumbs = true
+  defaultTheme = "auto"
+  showReadingTime = true
+  showBreadCrumbs = true
 
-[menu]
-  [[menu.main]]
-    identifier = "home"
-    name = "Home"
-    url = "/"
-    weight = 1
+[[menu.main]]
+  name = "Home"
+  url = "/"
+  weight = 1
+
+[[menu.main]]
+  name = "Roku Setup"
+  url = "/posts/roku-setup/"
+  weight = 2

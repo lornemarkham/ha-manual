@@ -1,5 +1,6 @@
 +++
 title = "Home"
+layout = "home"
 +++
 
-Welcome to your Home Assistant Manual.
+Welcome to your Home Assistant Manual. SERIOUSLY WTF.
