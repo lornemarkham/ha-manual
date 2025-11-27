@@ -1,0 +1,15 @@
+baseURL = "/"
+languageCode = "en-us"
+title = "Home Assistant Manual"
+theme = "PaperMod"
+
+[params]
+  ShowReadingTime = true
+  ShowBreadCrumbs = true
+
+[menu]
+  [[menu.main]]
+    identifier = "home"
+    name = "Home"
+    url = "/"
+    weight = 1
