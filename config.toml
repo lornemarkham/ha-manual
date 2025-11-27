@@ -3,17 +3,15 @@ languageCode = "en-us"
 title = "Home Assistant Manual"
 theme = "PaperMod"
 
+# Optional but recommended
+paginate = 10
+
 [params]
-  defaultTheme = "auto"
-  showReadingTime = true
-  showBreadCrumbs = true
+  homeInfoParams = { Title = "Welcome", Content = "This is your Home Assistant Manual." }
 
-[[menu.main]]
-  name = "Home"
-  url = "/"
-  weight = 1
-
-[[menu.main]]
-  name = "Roku Setup"
-  url = "/posts/roku-setup/"
-  weight = 2
+[menu]
+  [[menu.main]]
+    identifier = "posts"
+    name = "Posts"
+    url = "/posts/"
+    weight = 1
